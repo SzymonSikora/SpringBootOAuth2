@@ -1,0 +1,43 @@
+
+server:
+  port: 8080
+
+  security:
+    oauth2:
+      resource:
+        jwt:
+          keyValue:
+            -----BEGIN PUBLIC KEY-----
+            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmFbcU2Q6WZwUjEBvsZP8kIiE5mmctTGq1SOrPN5U4MkaTVs/zs2cWf+fhIE4WQ+dF9xTPxrJCGkwCMMXEhReFadOvzW8S3VdKdhng/j2GUbleU1QLSOGLhXu2+ODxeToZGpXIxtJiK2wE0JI9T6UwAe9j/stp4pMUzQubkG9acA+lpA5+zaCylLHysNFlSO1cTgzTdIZpXQGu5nkmyz7xT6vq8n2qAsD5GG5JRpBAac6L10Hnvl1YbwnPfi1T+IZSq7FdSpGJmYeOiPhJF0j7qYOMcaQgOfzoQGBhXslIHZeeaBIuUM6QFgZacJsVxdQoRvMronuuacnS+bngMEVDQIDAQAB
+            -----END PUBLIC KEY-----
+
+rsa:
+  private-key: 55103533001172214695157399389114379488154991803062533903103443952341730772887
+  public-key: 84551
+  modulus: 89678340399632589546133106379785765983373648158804531096283277835934935171051
+  size: 256
+
+jwt:
+  signing-key: This_is_a_secret_key
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        hmb2dll:
+          auto: create-drop
+        temp:
+          use_jdbc_metadata_defaults: false
+  main:
+    allow-bean-definition-overriding: true

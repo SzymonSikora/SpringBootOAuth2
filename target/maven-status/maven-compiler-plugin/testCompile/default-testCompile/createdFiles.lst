@@ -1,0 +1,6 @@
+com\webservice\dexter_service\TestModel\RequestExecutor.class
+com\webservice\dexter_service\LangTest.class
+com\webservice\dexter_service\DexterServiceApplicationTests.class
+com\webservice\dexter_service\AccountControllerTest.class
+com\webservice\dexter_service\TestModel\AuthorizationToken.class
+com\webservice\dexter_service\TestModel\AuthClient.class
