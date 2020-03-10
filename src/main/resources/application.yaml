@@ -8,7 +8,7 @@ server:
         jwt:
           keyValue:
             -----BEGIN PUBLIC KEY-----
-            MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmFbcU2Q6WZwUjEBvsZP8kIiE5mmctTGq1SOrPN5U4MkaTVs/zs2cWf+fhIE4WQ+dF9xTPxrJCGkwCMMXEhReFadOvzW8S3VdKdhng/j2GUbleU1QLSOGLhXu2+ODxeToZGpXIxtJiK2wE0JI9T6UwAe9j/stp4pMUzQubkG9acA+lpA5+zaCylLHysNFlSO1cTgzTdIZpXQGu5nkmyz7xT6vq8n2qAsD5GG5JRpBAac6L10Hnvl1YbwnPfi1T+IZSq7FdSpGJmYeOiPhJF0j7qYOMcaQgOfzoQGBhXslIHZeeaBIuUM6QFgZacJsVxdQoRvMronuuacnS+bngMEVDQIDAQAB
+            the key has been cut out
             -----END PUBLIC KEY-----
 
 rsa:
@@ -18,7 +18,7 @@ rsa:
   size: 256
 
 jwt:
-  signing-key: This_is_a_secret_key
+  signing-key: the key has been cut out
 
 spring:
   datasource:

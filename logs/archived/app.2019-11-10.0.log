@@ -1,5 +1,0 @@
-2019-11-10 13:05:26,443 INFO com.webservice.dexter_service.StartProject.DexterServiceApplication [restartedMain] Starting DexterServiceApplication on SZYMON-Komputer with PID 11028 (started by SZYMON in E:\Projects\Java projekty\DEXTER_SERVICE)
-2019-11-10 13:05:26,467 DEBUG com.webservice.dexter_service.StartProject.DexterServiceApplication [restartedMain] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
-2019-11-10 13:05:26,468 INFO com.webservice.dexter_service.StartProject.DexterServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-11-10 13:05:52,698 INFO com.webservice.dexter_service.StartProject.DexterServiceApplication [restartedMain] Started DexterServiceApplication in 40.618 seconds (JVM running for 67.271)
-2019-11-10 13:05:52,701 INFO com.webservice.dexter_service.StartProject.DexterServiceApplication [restartedMain] Server is started!
